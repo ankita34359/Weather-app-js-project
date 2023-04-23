@@ -1,0 +1,88 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* Set the background of app  */
+
+body{
+
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195,1) 0%, 
+  rgba(253, 187, 45, 1)100%);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the container for the weather details */
+.weather-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  max-width: 600px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+h1{
+  font-size: 2rem;
+  margin: 1rem 0;
+/*   align-item: centre; */
+}
+
+.form-container{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin: 1rem; 
+}
+
+label{
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+/* style the container for the city input form */
+
+input{
+   padding: 0.5rem;
+   font-size: 1.2rem;
+   border-radius: 10px;
+   border: none;
+   outline: none;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+button{
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+
+.Weather-Details{
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+.Weather-Details h2{
+   font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+Weather-Details p{
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
